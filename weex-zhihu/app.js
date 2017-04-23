@@ -1,3 +1,3 @@
-import foo from './src/foo.vue'
-foo.el = '#root'
-export default new Vue(foo);
+import app from './src/app.vue'
+app.el = '#root'
+export default new Vue(app);
